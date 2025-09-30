@@ -1,0 +1,31 @@
+.card {
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  min-height: 200px;
+  background-image: linear-gradient(
+    to center,
+    rgba(0, 255, 4, 0.552),
+    rgba(249, 0, 0, 0.504)
+  );
+  background-color: aqua;
+  background-size: cover;
+  padding: 24px;
+  border-radius: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.description {
+  color: forestgreen;
+  position: relative;
+}
+.Contact:focus {
+  color: darkblue;
+  outline: 2px solid firebrick;
+}
+.name {
+  color: darkred;
+  position: relative;
+}
